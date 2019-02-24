@@ -47,7 +47,7 @@ body {
   font-family: Muli;
 }
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {*/
   body {
     background: url(../img/Mesh.svg);
     background-image: url(../img/Mesh.svg);
@@ -62,7 +62,7 @@ body {
     background-color: initial;
     background-repeat: repeat-x;
   }
-}
+/*}*/
 
 p {
   font-size: 17px;
