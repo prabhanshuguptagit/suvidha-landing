@@ -418,9 +418,18 @@ hr {
   font-size: 5.5rem;
   display: inline-block;
 }
+
 .carousel-problems {
-  min-height: 350px;
+  height: 300px;
 }
+
+@media screen and (max-width: 768px) {
+  .carousel-problems {
+    height: 350px;
+  }
+
+}
+
 
 .simple-text {
   color: white;
@@ -483,44 +492,104 @@ hr {
   padding-top: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .feature {
+    margin-top: 10px;
+    padding-bottom: 30px; 
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee; 
+  }
+
+  .img-feature {
+    padding-top: 10px;
+    margin-bottom: 25px; 
+    max-width: 65%;
+  }
+  
+  #complaints-xs-icon {
+    margin-top: 30px;
+  }
+
+  #visitors-xs-icon {
+    width: 25%;
+  }
+}
+
+
 .grey-section-fade-bottom {
   -webkit-mask-image: -webkit-gradient(linear, left 30%, left bottom, from(rgba(240,240,240,1)), to(rgba(240,240,240,0)))
 }
 
 .steps-item-list {
-  /*min-height: 180px;*/
+  margin-top: -12%;
+}
+
+@media screen and (max-width: 768px) {
+  .steps-item-list {
+    margin-top: 0%;
+  }
 }
 
 .steps-item {
-    display: inline-block;
-    background: linear-gradient(to bottom right, #264cab 50%, #2854a5);
-    color: white;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-top-left-radius: 3px;
-    height: 80px;
-    width: 80px;
-    font-size: 40px;
-    font-family: sans-serif;
-    margin-bottom: 30px;
+  display: inline-block;
+  background: linear-gradient(to bottom right, #264cab 50%, #2854a5);
+  color: white;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 3px;
+  height: 80px;
+  width: 80px;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+.main-features {
+  margin-bottom: 10%;
+}
+
+@media screen and (max-width: 768px) {
+  .main-features {
+    margin-bottom: 25%;
+  }
 }
 
 .steps-item-text {
   position: absolute;
   top: 3px;
   left: 105px;
+  font-weight: 600;
+}
+
+.getting-suvidha {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 30%;
 }
 
 @media screen and (min-width: 768px) {
   .steps-item-list {
     margin-left: -6rem;
   }
+  .getting-suvidha {
+  bottom: 50%;
+  }
 }
 
 .screenshot {
   width: 60%;
+  margin-top: -30%;
+}
+
+@media screen and (min-width: 768px) {
+  .screenshot {
+    margin-top: -10%;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
