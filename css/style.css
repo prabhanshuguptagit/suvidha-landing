@@ -92,6 +92,10 @@ h5 {
   font-size: 1.2rem;
   line-height: 2rem;
 }
+
+.nav-link {
+  color: #363636;
+}
 /*End Resets*/
 
 /*  Miscellaneous utilities. */
@@ -233,15 +237,15 @@ hr {
   border-radius: 5px;
   transition: all 0.2s ease 0s;
   color: white;
-  padding: 10px 40px 10px 40px;
+  padding: 6px 30px 6px 30px;
   cursor: pointer;
 }
 
 .button-blue:hover {
-  background-color: white;
+ /* background-color: white;
   border-radius: 5px;
-  border: 2px solid #204bb3;
-  color: #003484;
+  border: 2px solid #204bb3;*/
+  color: white;
   text-decoration: none;
 }
 
@@ -261,6 +265,35 @@ hr {
   border: 2px solid #204bb3;
   color: white;
   text-decoration: none;
+}
+
+.button-white-outline {
+  background-color: none;
+  border-radius: 5px;
+  border: 2px solid white;
+  color: white;
+  transition: all 0.2s ease 0s;
+  padding: 6px 30px 6px 30px;
+  cursor: pointer;
+}
+
+.button-white-outline:hover {
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid white;
+  color: #204bb3;
+  text-decoration: none;
+}
+
+.append-btn {
+  border-width: 1px;
+  padding: 5px 15px 5px 15px; 
+}
+
+.append-btn:hover {
+  border-width: 1px;
+  background-color: #204bb3;
+  color: white;
 }
 
 /* End Miscellaneous utilities  */
@@ -341,9 +374,14 @@ hr {
   }
 }
 
+.login-btn {
+  margin-top: 0px;
+}
+
 @media screen and (min-width: 768px) {
   .login-btn {
     margin-right: 20px;
+    margin-top: 6px;
   }
 }
 
@@ -368,8 +406,43 @@ hr {
   color: #204bb3;
 }
 
+.blue-box-pricing {
+  background-color: #204bb3;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.pricing {
+  font-size: 5.5rem;
+  display: inline-block;
+}
 .carousel-problems {
   min-height: 350px;
+}
+
+.simple-text {
+  color: white;
+  font-size: 14px;
+}
+
+.simple-text-grey {
+  color: #363636;
+  font-size: 14px;
+}
+
+.free-month {
+  /*hack for closing modal and opening other*/
+  float: none !important; 
+  font-weight: 400 !important;
+  opacity: 1 !important;
+}
+
+.free-month:hover {
+  color: white !important;
+  text-shadow: none !important;
+  text-decoration: none !important;
 }
 
 .carousel-control-prev-icon {
@@ -415,7 +488,7 @@ hr {
 }
 
 .steps-item-list {
-  min-height: 180px;
+  /*min-height: 180px;*/
 }
 
 .steps-item {

@@ -11,12 +11,16 @@
 <body>
 
   <div class="full-height-top">
-    <nav class="navbar">
+    <nav class="navbar navbar-expand-lg">
       <a class="navbar-brand">
         <img src="img/suvidha-logo.png" height="60px">
       </a>
-      <!-- <a href="#" class="nav-item nav-link">99923 06105</a> -->
-      <a href="https://admin.suvidhahome.com" class="button-blue-outline login-btn">Login</a>
+      <ul class="navbar-nav ml-auto">
+        <!-- <li><a href="#" class="nav-item nav-link">99923 06105</a></li> -->
+        <li><a href="#" class="nav-item nav-link mr-3 d-none d-md-block" data-toggle="modal" data-target="#exampleModal">Contact us</a></li>
+        <li><a href="#" class="nav-item nav-link mr-4 d-none d-md-block" data-toggle="modal" data-target="#pricingModal">Pricing</a></li>
+        <li class="login-btn"><a href="https://admin.suvidhahome.com" class="button-blue">Login</a></li>
+      </ul>
     </nav>
 
     <div class="container">
@@ -57,25 +61,23 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-4 right">
+                <div class="col-md-3"></div>
+                <!-- <div class="col-md-4 right"> -->
                   <!-- <img src="https://via.placeholder.com/200" class="img-fluid"> -->
-                </div>
-                <div class="col-md-4 text-left">
+                <!-- </div> -->
+                <div class="col-md-6 text-center">
                   <h3 class="heading-grey carousel-problem-heading">Still making payments <br>by cheque?</h3>
-                  <p>Lorem ipsum dwoedij wdowiedj wd
-                  dweodij edowiejd owdijw edoiwjd oidwjedoiwjd wdoijew d
-                  doiwjed odiwejd dwedijw</p>
+                  <p>Electricity, maintenance, water, groceries. Cash and cheque payments are a hassle, both for residents and society management.</p>
                 </div>
               </div>
             </div>
             <div class="carousel-item">
               <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-4">
+                <div class="col-md-3"></div>
+                <!-- <div class="col-md-4"> -->
                   <!-- <img src="https://via.placeholder.com/150" class="img-fluid"> -->
-                </div>
-                <div class="col-md-4 text-left">
+                <!-- </div> -->
+                <div class="col-md-6 text-center">
                   <h3 class="heading-grey carousel-problem-heading">Missed out on last week’s water cut notice?</h3>
                   <p>Lorem ipd owdijw edoiwjd oidwjedoiwjd wdoijew d
                   doiwjed odiwejd dwedijw</p>
@@ -84,12 +86,12 @@
             </div>
             <div class="carousel-item">
               <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-4">
+                <div class="col-md-3"></div>
+                <!-- <div class="col-md-4"> -->
                   <!-- <img src="https://via.placeholder.com/150" class="img-fluid"> -->
-                </div>
-                <div class="col-md-4 text-left">
-                  <h3 class="heading-grey carousel-problem-heading">Leaky tap not fixed yet?</h3>
+                <!-- </div> -->
+                <div class="col-md-6 text-center">
+                  <h3 class="heading-grey carousel-problem-heading">Intruders</h3>
                   <p>Lorem ipsdwediwedo odiwejd wedijw</p>
                 </div>
               </div>
@@ -126,12 +128,12 @@
           <div class="col-md-4">
             <h3 class="heading-grey">Make Payments</h3>
             <p>
-              Collect maintenance charges, electricity charges, utility payments securely.
+              Collect maintenance charges, electricity charges, utility payments securely. Manage accounts, dues and defaulters effortlessly.
               <br>
               <br>
               Supports major e-wallets, net banking, cards, UPI and more.
             </p>
-            <div class="feature-icon">
+            <!-- <div class="feature-icon">
               <div class="feature-icon-image"></div>
             </div>
             <div class="feature-icon">
@@ -139,7 +141,7 @@
             </div>
             <div class="feature-icon">
               <div class="feature-icon-image"></div>
-            </div>
+            </div> -->
           </div>
           <div class="col-md-2"></div>
         </div>
@@ -251,6 +253,7 @@
         <h3 class="grotesk-heading blue-text" style="position: absolute;margin-left: auto;margin-right: auto;left: 0;right: 0;bottom: 50%;">Getting Suvidha is easy.</h3>
       </div>
     </div>
+
     <div class="row steps-item-list" style="margin-top: -10%">
       <div class="col-md-2"></div>
       <div class="col-md-3">
@@ -266,69 +269,29 @@
           <p class="steps-item-text">Suvidha is live! Now manage <br>your society at your fingertips.</p>
       </div>
     </div>
+    
+    <div class="row p-5">
+      <div class="col-md-2"></div>
+      <div class="col-md-8 text-center blue-box-pricing card">
+        Starting at<br><span class="grotesk-heading pricing">₹30<span class="simple-text">/mo*</span></span>
+        <p style="color: white">Pay as you go. First month free.</p>
+        <br>
+        <a href="#" class="text-center button-white-outline" style="width: 160px;margin: auto" data-toggle="modal" data-target="#pricingModal">See pricing ></a>
+      </div>
+    </div>
+
     <div class="row mt-5 text-center">
       <div class="col-md-12">
-        <a href="#" class="button-blue-outline" style="font-size: 20px;">Get in touch</a>
+        <a href="#" class="button-blue-outline" style="font-size: 20px;" data-toggle="modal" data-target="#exampleModal">Get Suvidha</a>
         <br>
         <br>
-        <a href="#" style="font-size: 20px;" class="dark-blue-text link">Call us at: +91 88004 36082</a>
+        <a href="tel:+918800436082" style="font-size: 20px;" class="dark-blue-text link">Call us at: +91 88004 36082</a>
       </div>
     </div>
   </div>
 
   <!-- Footer -->
 <footer class="page-footer font-small unique-color-dark">
-
-    <div style="background-color: #204bb3;">
-      <div class="container">
-
-        <!-- Grid row-->
-        <div class="row py-4 d-flex align-items-center">
-
-          <!-- Grid column -->
-          <!-- <div class="col-md-6 mb-4 mb-md-0">
-            <h6 style="color:white;display: inline;">Sign up now:
-              <ul class="list-inline" style="display:inline;">
-                <li class="list-inline-item">Quick Onboarding</li>
-                <li class="list-inline-item">Access to entire product suite</li>
-                <li class="list-inline-item">24x7 support</li>
-              </ul>
-            </h6>
-          </div> -->
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-6 col-lg-7 text-center text-md-right">
-
-            <!-- Facebook -->
-            <a class="fb-ic">
-              <i class="fab fa-facebook-f white-text mr-4"> </i>
-            </a>
-            <!-- Twitter -->
-            <a class="tw-ic">
-              <i class="fab fa-twitter white-text mr-4"> </i>
-            </a>
-            <!-- Google +-->
-            <a class="gplus-ic">
-              <i class="fab fa-google-plus-g white-text mr-4"> </i>
-            </a>
-            <!--Linkedin -->
-            <a class="li-ic">
-              <i class="fab fa-linkedin-in white-text mr-4"> </i>
-            </a>
-            <!--Instagram-->
-            <a class="ins-ic">
-              <i class="fab fa-instagram white-text"> </i>
-            </a>
-
-          </div>
-          <!-- Grid column -->
-
-        </div>
-        <!-- Grid row-->
-
-      </div>
-    </div>
 
     <!-- Footer Links -->
     <div class="container text-center text-md-left mt-5">
@@ -417,6 +380,82 @@
 
   </footer>
   <!-- Footer -->
+  <!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header p-0 pr-3 pt-3">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h3 class="grotesk-heading modal-title text-center mb-3" id="exampleModalLabel">Get in touch</h3>
+        <p class="text-center">Leave your email or mobile number and our representative will get in touch with you.</p>
+        <hr>
+        <form action="https://formspree.io/guptaprabhanshu1@gmail.com" method="post">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Enter email" aria-label="Email address" aria-describedby="basic-addon2" required>
+              <div class="input-group-append">
+                <button style="cursor: pointer" class="input-group-text button-blue append-btn" type="submit" id="basic-addon2">Submit</button>
+              </div>
+            </div>
+            <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+        </form>
+        <p class="text-center">OR</p>
+        <form action="https://formspree.io/guptaprabhanshu1@gmail.com" method="POST"" method="post">
+          <div class="form-group">
+            <label for="exampleInputMobile1">Mobile number</label>
+            <div class="input-group">
+              <input type="tel" class="form-control" placeholder="Enter mobile" aria-label="Email address" aria-describedby="basic-addon2" required>
+              <div class="input-group-append">
+                <button style="cursor: pointer" class="input-group-text button-blue append-btn" type="submit" id="basic-addon2">Submit</button>
+              </div>
+            </div>
+            <small class="form-text text-muted">We don't share your mobile either.</small>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="pricingModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header p-0 pr-3 pt-3">
+        <h4 class="grotesk-heading modal-title" id="exampleModalLabel"></h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+        <h2 class="grotesk-heading heading-grey">Pricing</h2>
+        Starting at<br><span class="grotesk-heading pricing">₹30<span class="simple-text-grey">/mo*</span></span>
+        <p class="blue-text">Sign up now to get</p>
+          <p>Access to entire product suite.
+          <br>24/7 support.</p>
+        <br>
+        <a href="#" data-toggle="modal" data-dismiss="modal" data-target="#exampleModal" class="button-blue-outline free-month close mt-5">Start free month now</a>
+        <br>
+        <br>
+
+        *2.5% gateway charges applicable on all payments.<br>Charges on per apartment basis.
+        
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
 
 </body>
 
