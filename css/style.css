@@ -322,12 +322,12 @@ hr {
 }
 
 .content-top {
-  padding-top: 5rem;
+  padding-top: 4rem;
 }
 
 @media screen and (min-width: 768px) {
   .content-top {
-    padding-top: 8rem;
+    padding-top: 15%;
   }
 }
 
